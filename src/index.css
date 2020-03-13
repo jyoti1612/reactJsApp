@@ -1,0 +1,69 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.ReactTable {
+  width: 1300px;
+  border: solid 1px black;
+}
+
+.ReactTable .pagination-bottom{
+  display: none;
+}
+
+.ReactTable .rt-thead.-header {
+  box-shadow: none;
+}
+
+/* .ReactTable .rt-tbody .rt-tr-group {
+  border: solid 1px black !important;
+}
+
+.ReactTable .rt-tbody .rt-td {
+  border-right: solid 1px black !important;
+} */
+/* .ReactTable .rt-thead {
+  overflow-y: scroll;
+  overflow-x: scroll;
+} */
+
+/* .ReactTable .rt-th {
+  width: auto !important;
+}
+
+.ReactTable .rt-td {
+  width: auto !important;
+} */
+
+
+/* UI Editor*/
+.rstm-tree-item-group{
+  list-style-type: none;
+}
+
+.rstm-tree-item>.rstm-tree-item-level0{
+  padding-left: 0.75rem !important;
+}
+
+.rstm-search{
+  display: none;
+}
